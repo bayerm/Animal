@@ -22,7 +22,28 @@ public class Animal {
 	
 	//Animal is the super class for Dog and Cat
 	public Animal() {
-		super();
+		numberOfAnimals++;
+		
+		int sumOfNumbers = 5 + 1;
+		System.out.println("5 + 1 = " + sumOfNumbers);
+		
+		int diffOfNumbers = 5 - 1;
+		System.out.println("5 - 1 = " + diffOfNumbers);
+		
+		int multOfNumbers = 5 * 1;
+		System.out.println("5 * 1 = " + multOfNumbers);
+		
+		int divOfNumbers = 5 / 1;
+		System.out.println("5 / 1 = " + divOfNumbers);
+		
+		int modOfNumbers = 5 % 3;
+		System.out.println("5 % 3 = " + modOfNumbers);
+	}
+	
+	public static void main(String[] args) {
+		
+		Animal theAnimal = new Animal();
+		
 	}
 	
 }
